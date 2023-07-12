@@ -1,79 +1,31 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta property="og:title" content="Past Projects - thedealofficial">
-    <meta property="og:description" content="List of dealz's past projects he made for you to use!">
-    <meta property="og:image" content="https://o.remove.bg/downloads/ea74f514-24ce-432f-88bb-8c8110a98fad/Robotic_Arm-removebg-preview.png">
-    <title>Projects - Dealz</title>
-    <style>
-        html {
-            color-scheme: dark black;
-        }
+	<title>GitHub Web Page</title>
+	<style>
+		h1 {
+			font-size: 60px;
+			color: #fff;
+			background-image: linear-gradient(to right, #f00, #ff0, #0f0);
+			background-clip: text;
+			-webkit-background-clip: text;
+			animation: animate 10s ease-in-out infinite;
+		}
 
-        body {
-            font-family: system-ui;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            height: 100vh;
-            padding-top: 20px;
-            text-align: center;
-        }
-
-        .project-box {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: fit-content;
-            padding: 10px;
-            border-radius: 10px;
-            background-color: #f0f0f0;
-            cursor: pointer;
-            margin-top: 20vh;
-        }
-
-        .project-box:hover {
-            background-color: #e0e0e0;
-        }
-
-        .project-box img {
-            width: 60px;
-            height: 60px;
-            margin-right: 10px;
-            border-radius: 50%;
-        }
-
-        .project-box a {
-            text-decoration: none;
-            color: #000;
-            font-weight: bold;
-        }
-
-        .title {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .description {
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-    </style>
+		@keyframes animate {
+			0% {
+				transform: translateX(-100%);
+			}
+			50% {
+				transform: translateX(100%);
+			}
+			100% {
+				transform: translateX(-100%);
+			}
+		}
+	</style>
 </head>
-
 <body>
-    <div class="content">
-        <div class="title">My Projects!</div>
-        <div class="description">
-            These are my past projects I have created for fun. As a programmer, I test my skills and enjoy building these projects.
-        </div>
-        <div class="project-box" onclick="location.href='https://coin-flipper.roblify.com';">
-            <img src="Heads.png" alt="Heads" />
-            <a href="https://coin-flipper.roblify.com">Flip a Coin</a>
-        </div>
-    </div>
+	<h1>Hello World!</h1>
 </body>
 </html>
