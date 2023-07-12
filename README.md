@@ -1,3 +1,3 @@
-$${\color{red}TheDealofficial}$$ # - TheDealOfficial
+# - TheDealOfficial
 Hello! Welcome to Dealz team
 
