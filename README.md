@@ -1,3 +1,3 @@
-# <span style="color: blue"> TheDealOfficial </span>
+<span style="color: blue"> TheDealOfficial </span>
 Hello! Welcome to Dealz team
 
